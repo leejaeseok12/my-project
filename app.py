@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 import control
 import streamlit as st
 
+st.set_page_config(
+    page_icon="🐶",
+    page_title="이자이스기 페이지",
+)
+
 def plot_response(G):
     # 폐루프 전달함수 계산
     H = 1  # 단위 피드백
