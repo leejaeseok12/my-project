@@ -15,9 +15,8 @@ import control
 import streamlit as st
 
 st.set_page_config(
-    page_icon="🧊",
-    page_title="이재석 셤",
-    layout="wide",
+    page_icon="🐶",
+    page_title="이자이스기 페이지",
 )
 
 def plot_response(G):
@@ -69,6 +68,7 @@ response_figs = plot_response(G)
 # 그래프를 Streamlit에 표시
 for fig in response_figs:
     st.pyplot(fig)
+
 
     '''
 
