@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import control as ctrl
 from scipy import signal
 import streamlit as st
-
+st.write('# 202021052 이재석')
 # 전달 함수 정의
 num = [100]
 den = [1, 5, 6]
