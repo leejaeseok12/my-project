@@ -43,13 +43,13 @@ def plot_response(G):
 
 # 전달 함수 정의
 num = [100]
-den = [1, 5, 6, 100]
+den = [1, 5, 6]
 G = control.TransferFunction(num, den)
 
 # Streamlit 앱 구성
 st.title('202021052 이재석')
 st.subheader('폐루프 전달함수')
-st.write(G)
+st.write('100/(s^2 + 5s + 106)')
 
 # Step 응답 및 주파수 응답 그래프 플로팅
 response_figs = plot_response(G)
