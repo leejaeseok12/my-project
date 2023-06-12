@@ -43,7 +43,7 @@ def plot_response(G):
 
 # 전달 함수 정의
 num = [100]
-den = [1, 5, 6]
+den = [1, 5, 6, 100]
 G = control.TransferFunction(num, den)
 
 # Streamlit 앱 구성
