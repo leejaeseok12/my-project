@@ -22,8 +22,8 @@ w, mag, phase = s1.bode(frequencies)
 
 # Streamlit 앱 구성
 st.title('202021052 이재석')
-st.subheader('폐루프 전달함수')
-st.write('100/(s^2 + 5s + 106)')
+st.subheader('폐루프 전달함수 구하기')
+st.write('L(s) = 100/(s^2 + 5s + 106)')
 
 # 전달함수 그래프
 st.header("Transfer Function Response")
